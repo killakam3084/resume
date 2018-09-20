@@ -1,100 +1,102 @@
-Johnny Coder
+Cameron Rison - SWE
 ============
 
 ----
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
+> " […] if you give a man a fish he is hungry again in an hour.\
+> If you teach him to catch a fish you do him a good turn."
 
 ----
 
 Education
 ---------
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+--------------------------------------
+2010-2014 
+:   **BS, Computer Science**; The University of Texas @ Austin
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
-
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
-
-    *Minor: Awesomeology*
 
 Experience
 ----------
 
-**Your Most Recent Work Experience:**
+--------------------------------------
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+**General Motors**
 
-* First item
+Dev Ops Engineer:
+* Administered infrastructure supporting GM major brand sites [chevrolet.com,  cadillac.com, gmc.com...etc]
+    - Managed Jenkins build pipelines to 
+        + Build Adobe Experience Manager CMS projects bundled via maven/gulp
+        + Combile and build java web services for various "shopping tools" (locate a vehicle, dealership location, etc )
+    - Wrote wrapper (python) CLI around Adobe CRX Package Manager http client to manage CRX CRUD operations 
+        + Updating, installing, reverting/purging app code and "authored" content 
+    - Proof-of-Concepted introduction of Chef for configuration of various infrastructure needs in organization
+        + Wrote Chef recipies to replicating the configuration of Apache 2.4 used in AEM server topology for caching/load-balancing
+    - Wrote Docker config to bootstrap AEM instances (author, publisher, dispatcher) for local development.
+        * https://hub.docker.com/u/iillmaticc/
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+Frontend Developer:
+* Developed configurable UI components for use in building out sites across GM brand sites
+    - AEM components, MVC-esque
+        + Templating engine clientside (HTL)
+        + "Component lifecycle" hooks via Java-Use classes inject editable elements of components
+        + data models inherit from resource interface defined in [Apache Sling REST](https://sling.apache.org/) 
+    - HTML/SASS/TerrificJS/Foundation
+    - Angular 2.0 "dealer locator" re-design, editable clientside markup pulling 
+* Developed a site using [Gatsby](https://gatsbyjs.org) to host platform documentation
+    - Programmatically transforms Markdown (.md) documents into similarly structured page templates
+      ready for web consumption
+    - React, Redux, Graphql
 
-**That Other Job You Had**
+* Developed an Anguler 6 SPA to handle engagement for non-technical analytics team
+    - Handles form submission of work requests creating work items in TFS via [TFS/VS REST API](https://docs.microsoft.com/en-us/rest/api/vsts/?view=vsts-rest-4.1) 
+    - Angular Material UI, Reactive Forms
+    - CD/CI managed through Netlify CMS static site hosting
 
-Also with a short description.
+* Handled containerized deployment of both to [Pivotal Cloud](https://pivotal.io/platform)
 
-Technical Experience
---------------------
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
+Freelance / Open Source
+----
+--------------------------------------
 
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
+[Citywide](https://citywideholdup.netlify.com/) [WIP]
+- Built w/ static site generator [Gatsby](https://gatsbyjs.org)
+- Integrates w/ [Dato CMS](https://www.datocms.com/) to manage copy of
+  UI elements, and static elements (text, icons, images, links etc) 
+- CD/CI & hosting through [Netlify](https://www.netlify.com/) 
 
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
+
+[Docker](https://hub.docker.com/u/iillmaticc/)
+- Docker images for containerized Adobe Experience Manager
 
 Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
+:   **python:** 
+    Working knowledge of core libs, some experience w/ higher level libraries 
+    [Scrapy](https://scrapy.org/), Flask.
 
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
+:   **javascript:** 
+    Comfort w/ ES6 introductions, JSX and Typescript. Evolving understanding of core JS
 
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
+:   **java:** Knowledge of the core language; less experienced w/ modern web architectures and patterns. 
 
-[ref]: https://github.com/githubuser/superlongprojectname
+:   **sh, bash** I know my way around Unix and the shell(s)
 
-Extra Section, Call it Whatever You Want
+:   Basic knowledge of **C**, **Go** 
+
+
+[Github](https://github.com/killakam3084)
+
+Things I do without a computer "for fun and profit."
 ----------------------------------------
 
-* Human Languages:
-
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
-
-* Random tidbit
-
-* Other sort of impressive-sounding thing you did
+* Rockclimbing
+* Furniture Making 
+* DJ'ing | Songwriting | Music making | Annoying others with sounds 
+* I'm not a Dr., but I did stay at a Holiday Inn Express once.  
 
 ----
 
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+> <cameron.rison@utexas.edu> • (281) 705-9986\
+> 4911 Single Shot Cir. Austin, TX 78723 
