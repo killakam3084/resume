@@ -24,7 +24,7 @@ Experience
 **General Motors**
 
 Dev Ops Engineer:
-* Administered infrastructure supporting GM major brand sites [chevrolet.com,  cadillac.com, gmc.com...etc]
+* Administered infrastructure supporting GM's major brand sites [chevrolet.com,  cadillac.com, gmc.com...etc]
     - Managed Jenkins build pipelines to 
         + Build Adobe Experience Manager CMS projects bundled via maven/gulp
         + Combile and build java web services for various "shopping tools" (locate a vehicle, dealership location, etc )
@@ -61,7 +61,7 @@ Freelance / Open Source
 --------------------------------------
 
 [Citywide](https://citywideholdup.netlify.com/) [WIP]
-- Built w/ static site generator [Gatsby](https://gatsbyjs.org)
+- Building w/ static site generator [Gatsby](https://gatsbyjs.org)
 - Integrates w/ [Dato CMS](https://www.datocms.com/) to manage copy of
   UI elements, and static elements (text, icons, images, links etc) 
 - CD/CI & hosting through [Netlify](https://www.netlify.com/) 
