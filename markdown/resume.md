@@ -25,6 +25,10 @@ Experience
 
 * Administered infrastructure supporting GM's major brand sites [chevrolet.com,  cadillac.com, gmc.com...etc]
 
+    - Administered 100+ linux hosts across multiple distributions (Oracle Enterprise, Red Hat, Suse) supporting Adobe CMS, AEM application, Apache, and Oracle Web Logic 12c servers
+        + Comfortable in the *nix environment and topology
+        + Familiar w/ being productive in the shell and cli modus operandi
+        + Affinity for well architected utilities and Infrastructure as a Service methodology
     - Managed **Jenkins** build pipelines to
         + Build Adobe Experience Manager CMS projects bundled via maven/gulp
         + Combile and build java web services for various "shopping tools" (locate a vehicle, dealership location, etc )
@@ -48,17 +52,34 @@ Experience
     - Programmatically transforms Markdown (.md) documents into similarly structured page templates
       ready for web consumption
     - **React, Redux, Graphql**
-
 * Developed an **Angular 6** SPA to handle engagement for non-technical analytics team
     - Handles form submission of work requests creating work items in TFS via [TFS/VS REST API](https://docs.microsoft.com/en-us/rest/api/vsts/?view=vsts-rest-4.1)
     - **Angular Material UI, Reactive Forms**
-
-* Handled containerized deployment of both ^ to [Pivotal Cloud](https://pivotal.io/platform)
+    - Handled containerized deployment of both  to [Pivotal Cloud](https://pivotal.io/platform)
 
 
 Technical Skills / Pet Projects
 ----
 --------------------------------------
+
+[Privatir](https://privatir.com) / 
+[Repo](https://github.com/Privatir/privatir)
+
+- Investor relationship management platform (IRM) for companies. 
+- Technical co-founder focused on infrastructure
+- Provisioning of compute resources and network topology in AWS
+    - DNS configuration via Route 53
+    - Loadbalancing
+    - Certificate maintenance
+    - CDN via S3 
+    - Provisioning of Chef Server / Chef Automate in AWS EC2
+    - Chef configuration 
+        - Postgres
+        - Nginx + Passenger 
+        - Redis
+        - Node
+        - Ruby/Rails
+        - Capistrano-esque CD pipeline
 
 [Citywide](https://citywideholdup.org/) [WIP]
 - Building w/ static site generator [Gatsby](https://gatsbyjs.org)
@@ -100,6 +121,6 @@ Other things I do "for fun and profit."
 ----
 
 > <cameron.rison@utexas.edu> • (281) 705-9986\
-> 4911 Single Shot Cir. Austin, TX 78723\
+> 4911 Single Shot Cir. Austin, TX 78723
 
-> This [resume](https://github.com/killakam3084/resume) is recursive...
+> This [resume](https://github.com/killakam3084/resume/blob/master/markdown/resume.md) is recursive...
