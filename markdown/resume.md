@@ -19,9 +19,9 @@ Experience
 
 --------------------------------------
 
-### General Motors
-
+### General Motors 
 #### Dev Ops Engineer
+##### 06/2014 - 03/2016
 
 * Administered infrastructure supporting GM's major brand sites [chevrolet.com,  cadillac.com, gmc.com...etc]
 
@@ -40,7 +40,7 @@ Experience
         * [Docker Hub](https://hub.docker.com/u/iillmaticc/)
 
 #### Frontend Developer
-
+##### 03/2016 - 03/2019
 * Developed configurable UI components for use in building out sites across GM brand sites
     - AEM components, MVC-esque
         + Templating engine clientside (HTL)
@@ -58,12 +58,13 @@ Experience
     - Handled containerized deployment of both  to [Pivotal Cloud](https://pivotal.io/platform)
 
 
-Technical Skills / Pet Projects
+Technical Skills / Projects
 ----
 --------------------------------------
 
-[Privatir](https://privatir.com) / 
-[Repo](https://github.com/Privatir/privatir)
+[Privatir](https://privatir.com)
+
+##### 01/2019 - Present
 
 - Investor relationship management platform (IRM) for companies. 
 - Technical co-founder focused on infrastructure
@@ -73,19 +74,25 @@ Technical Skills / Pet Projects
     - Certificate maintenance
     - CDN via S3 
     - Provisioning of Chef Server / Chef Automate in AWS EC2
+        - Ubuntu / Debian
     - Chef configuration 
         - Postgres
         - Nginx + Passenger 
         - Redis
         - Node
         - Ruby/Rails
-        - Capistrano-esque CD pipeline
+        - Capistrano
+- Tech stack
+    - Ruby/Rails 
+    - React/Redux
+- [Repos](https://github.com/Privatir/privatir)
 
-[Citywide](https://citywideholdup.org/) [WIP]
+[Citywide](https://citywideholdup.org/)
 - Building w/ static site generator [Gatsby](https://gatsbyjs.org)
 - Integrates w/ [Dato CMS](https://www.datocms.com/) to manage copy of
   UI elements, and static elements (text, icons, images, links etc)
 - CD/CI & hosting through [Netlify](https://www.netlify.com/)
+- [Repo](https://github.com/killakam3084/citywide-site.git)
 
 
 [Docker](https://hub.docker.com/u/iillmaticc/)
